@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3CAD1749C9E403FECE920E45 /* Pods_Instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6BC310FE0CE543B3DD1A12 /* Pods_Instagram.framework */; };
+		B5189B4B27CBF0F200519107 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5189B4A27CBF0F200519107 /* CommentCell.swift */; };
 		B5DEAA6D27BC46AB002E42E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DEAA6C27BC46AB002E42E2 /* AppDelegate.swift */; };
 		B5DEAA6F27BC46AB002E42E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DEAA6E27BC46AB002E42E2 /* SceneDelegate.swift */; };
 		B5DEAA7427BC46AB002E42E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5DEAA7227BC46AB002E42E2 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B5189B4A27CBF0F200519107 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		B5C150FCC8352C60646A7BF2 /* Pods-Instagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.debug.xcconfig"; path = "Target Support Files/Pods-Instagram/Pods-Instagram.debug.xcconfig"; sourceTree = "<group>"; };
 		B5DEAA6927BC46AB002E42E2 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5DEAA6C27BC46AB002E42E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				B5DEAA8227BC4F08002E42E2 /* FeedViewController.swift */,
 				B5DEAA8427BC5D7F002E42E2 /* CameraViewController.swift */,
 				B5DEAA8627BC7841002E42E2 /* PostCell.swift */,
+				B5189B4A27CBF0F200519107 /* CommentCell.swift */,
 			);
 			path = Instagram;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				B5DEAA8327BC4F08002E42E2 /* FeedViewController.swift in Sources */,
 				B5DEAA6F27BC46AB002E42E2 /* SceneDelegate.swift in Sources */,
 				B5DEAA8727BC7841002E42E2 /* PostCell.swift in Sources */,
+				B5189B4B27CBF0F200519107 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
